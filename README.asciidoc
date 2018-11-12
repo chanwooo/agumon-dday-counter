@@ -1,1 +1,4 @@
 # agumon-dday-counter
+
+image::agumon.png[Agumon]
+
