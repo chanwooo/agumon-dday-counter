@@ -2,4 +2,4 @@
 
 image::agumon.png[Agumon]
 
-https://chanwookim.me/dday
+https://chanwookim.me/agumon-dday/
