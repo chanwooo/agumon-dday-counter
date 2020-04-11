@@ -1,4 +1,6 @@
 # agumon-dday-counter
 https://chanwookim.me/agumon-dday/
+
 image::agumon.png[Agumon]
-## 뭐긴뭐야 수능이지!
+
+# 뭐긴뭐야 수능이지!
