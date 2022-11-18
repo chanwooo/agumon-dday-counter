@@ -5,15 +5,15 @@ function pad(n, width) {
 }
 
 let ddays = [
-  new Date("Nov 15, 2018 00:00:00").getTime(),
-  new Date("Nov 14, 2019 00:00:00").getTime(),
-  new Date("Dec 3, 2020 00:00:00").getTime(),
-  new Date("Nov 18, 2021 00:00:00").getTime(),
-  new Date("Nov 17, 2022 00:00:00").getTime(),
-  new Date("Nov 16, 2023 00:00:00").getTime(),
-  new Date("Nov 14, 2024 00:00:00").getTime(),
-  new Date("Nov 13, 2025 00:00:00").getTime()
-];
+  new Date("Nov 15, 2018 00:00:00"),
+  new Date("Nov 14, 2019 00:00:00"),
+  new Date("Dec 3, 2020 00:00:00"),
+  new Date("Nov 18, 2021 00:00:00"),
+  new Date("Nov 17, 2022 00:00:00"),
+  new Date("Nov 16, 2023 00:00:00"),
+  new Date("Nov 14, 2024 00:00:00"),
+  new Date("Nov 13, 2025 00:00:00")
+].map(dday => dday.getTime());
 
 let now = new Date().getTime();
 
