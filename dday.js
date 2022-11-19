@@ -19,12 +19,15 @@ let now = new Date().getTime();
 
 let countDownDate;
 for(i=0; i<ddays.length; i++) {
-  if (now < ddays[i]) {
+  if (now < ddays[i]+86400000) {
     countDownDate = ddays[i];
     break;
   }
 }
+console.log(countDownDate);
+console.log(now);
 let distance = countDownDate - now;
+console.log(distance);
 
 	
 setInterval(function() { // 오늘 날짜 등록
@@ -43,7 +46,7 @@ setInterval(function() { // 오늘 날짜 등록
   }
   else{
   document.getElementById("d-day")
-  .innerHTML = "D-DAY<br>" + pad(0,3) +":" + pad(0,2) + ":" + pad(0,2) + ":" + pad(0,2) + "."+pad(0,3)+"<br>수능 대박";
+  .innerHTML = "D-DAY<br>" + pad(0,3) +":" + pad(0,2) + ":" + pad(0,2) + ":" + pad(0,2) + "."+pad(0,3)+"<br>뭐긴 뭐야 수능대박이지";
   }
 
  },25);
